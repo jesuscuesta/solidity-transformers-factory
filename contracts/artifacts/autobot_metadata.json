@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_accountSC",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "prime_creador_de_autobots",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_smartcontractPadre",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cybertron.sol": "autobot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cybertron.sol": {
+			"keccak256": "0x81aa77c49330a394d903432fc1a8abf66e51766c206121e6aaf896d290c16956",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7caeb623c24ef496f603e8c7248f5e06fc9d08e237d4703ef38db37a7f4859cd",
+				"dweb:/ipfs/QmZFVhb4vXymeiiA2qBkYFDkgJpWyZtQfg1yBzfUKSJpRL"
+			]
+		}
+	},
+	"version": 1
+}
